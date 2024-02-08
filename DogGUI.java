@@ -233,22 +233,22 @@ public class DogGUI
   {
     // a try is like an if statement, "throwing" an error if the body of the try fails
     try {
-      kitchenImage = ImageIO.read(new File("kitchenPorch.png"));      
+      kitchenImage = ImageIO.read(new File("images/kitchenPorch.png"));      
     } catch (Exception e) { System.err.println("Warning: Could not open file kitchenPorch.png"); } 
     try {
-      dogImage = ImageIO.read(new File("dog.png"));      
+      dogImage = ImageIO.read(new File("images/dog.png"));      
     } catch (Exception e) { System.err.println("Warning: Could not open file dog.png"); } 
     try {
-      dogEatImage = ImageIO.read(new File("dogEat.png"));      
+      dogEatImage = ImageIO.read(new File("images/dogEat.png"));      
     } catch (Exception e) { System.err.println("Warning: Could not open file dogEat.png"); } 
     try {
-      dogSpeakImage = ImageIO.read(new File("dogSpeak.png"));      
+      dogSpeakImage = ImageIO.read(new File("images/dogSpeak.png"));      
     } catch (Exception e) {  System.err.println("Warning: Could not open file dogSpeak.png"); } 
     try {
-      dogSitImage = ImageIO.read(new File("dogSit.png"));      
+      dogSitImage = ImageIO.read(new File("images/dogSit.png"));      
     } catch (Exception e) { System.err.println("Warning: Could not open file dogSit.png"); } 
     try {
-      dogWalkImage = ImageIO.read(new File("dogWalk.png"));      
+      dogWalkImage = ImageIO.read(new File("images/dogWalk.png"));      
     } catch (Exception e) { System.err.println("Warning: Could not open file dogWalk.png"); } 
   }
 }
